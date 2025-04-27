@@ -78,4 +78,7 @@ export default defineConfig({
       errorRecovery: true,
     },
   },
+  experimental: {
+    enableNativePlugin: true,
+  },
 })
